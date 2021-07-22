@@ -1,8 +1,11 @@
 package com.abhija.updatejava.java_interview_collection;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 
 import org.junit.Test;
+
+import com.abhija.updatejava.java_interview_collection.strings.StringReversal;
 
 public class StringReversalTest {
 

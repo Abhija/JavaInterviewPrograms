@@ -1,20 +1,20 @@
 package com.abhija.updatejava.java_interview_collection;
 
-/**
- * Main class
- * 
- * @author abhija.j
- *
- */
+import com.abhija.updatejava.java_interview_collection.generic.NumberSwap;
+import com.abhija.updatejava.java_interview_collection.generic.PrimeNumberCheck;
+import com.abhija.updatejava.java_interview_collection.strings.StringReversal;
+import com.abhija.updatejava.java_interview_collection.strings.VowelCheck;
+
 public class App {
 
-	/**
-	 * Main method to execute all the sample programs
-	 * 
-	 * @param args
-	 * @throws Exception
-	 */
-	public static void main(String[] args) throws Exception {
-		System.out.println("String Reversal" + new StringReversal().reverseString("NOTIFICATION"));
+	public static void main(String[] args) {
+		System.out.println("1. String reversal of NOTIFICATION "+ new StringReversal().reverseString("NOTIFICATION"));
+		System.out.println("2. NUmber swap of 1 and 2 ");
+		 new NumberSwap().swapNumbers(1, 24);
+		 System.out.println("3. Vowels Check for Apple "+ new VowelCheck().checkVowelPresent("apple"));
+		 System.out.println("3. Vowels Check for Apple "+ new VowelCheck().checkVowelPresent2("apple"));
+		 System.out.println("4. Verify for Primenumber "+ new PrimeNumberCheck().checkPrimeNumber(23));
+
 	}
+
 }

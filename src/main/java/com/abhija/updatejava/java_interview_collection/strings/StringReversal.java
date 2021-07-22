@@ -1,4 +1,4 @@
-package com.abhija.updatejava.java_interview_collection;
+package com.abhija.updatejava.java_interview_collection.strings;
 
 /**
  * CONCEPTS COVERED : Basic String operation, Exception handling
